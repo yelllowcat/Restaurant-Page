@@ -1,0 +1,30 @@
+/* styles.css */
+body{
+     height: 100vh;
+    width: 100vw;
+}
+
+.bg {
+    background: url(restaurant.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#content{
+     height: 100vh;
+    width: 100vw;
+}
+.drinksSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ p {
+     white-space: pre-line; /* collapse WS, preserve LB */
+   }
+.container{
+    height: 100%;
+    width: 100%;
+}
