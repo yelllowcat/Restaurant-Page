@@ -3,7 +3,6 @@ const content = document.querySelector("#content");
 
 export const pageLoad = () => {
   const div = document.createElement("div");
-  div.style.backgroundColor = "#2E2E2E	";
   div.classList.add("container");
   content.appendChild(div);
   const image = document.createElement("img");
