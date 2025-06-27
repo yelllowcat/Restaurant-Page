@@ -2,7 +2,6 @@ const content = document.querySelector("#content");
 
 export const contact = () => {
   const div = document.createElement("div");
-  div.style.backgroundColor = "#2E2E2E	";
   div.classList.add("container");
   div.classList.add("containerContact");
 

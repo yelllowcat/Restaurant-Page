@@ -2,17 +2,22 @@ const content = document.querySelector("#content");
 
 export const menu = () => {
   const div = document.createElement("div");
-  div.style.backgroundColor = "#2E2E2E	";
   div.classList.add("container");
   div.classList.add("containerMenu");
   content.appendChild(div);
 
   const dishes = document.createElement("section");
+
+  const menuTitle = document.createElement("h1");
+  menuTitle.textContent = "Menu";
+  menuTitle.classList.add("menuTitle");
+
+  div.appendChild(menuTitle);
   div.appendChild(dishes);
-  const dishesTitle = document.createElement("h1");
+
+  const dishesTitle = document.createElement("h2");
   dishesTitle.textContent = "Dishes";
   dishes.appendChild(dishesTitle);
-  dishes.classList.add("drinksSec");
 
   const wings = document.createElement("p");
   wings.textContent = "Wings";
@@ -26,7 +31,7 @@ export const menu = () => {
 
   const drinks = document.createElement("section");
   div.appendChild(drinks);
-  const drinksTitle = document.createElement("h1");
+  const drinksTitle = document.createElement("h2");
   drinksTitle.textContent = "Drinks";
   drinks.appendChild(drinksTitle);
   drinks.classList.add("drinksSec");
@@ -45,11 +50,12 @@ export const menu = () => {
   drinks.appendChild(tecate);
 
   const extras = document.createElement("section");
+
   div.appendChild(extras);
-  const extrasTitle = document.createElement("h1");
+  const extrasTitle = document.createElement("h2");
   extrasTitle.textContent = "Extras";
   extras.appendChild(extrasTitle);
-  extras.classList.add("drinksSec");
+  extras.classList.add("extrasSec");
 
   const ranch = document.createElement("p");
   ranch.textContent = "Ranch";

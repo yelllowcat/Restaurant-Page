@@ -24,14 +24,10 @@ nav{
      height: 100vh;
     width: 100vw;
 }
-.drinksSec{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
  p {
      white-space: pre-line; /* collapse WS, preserve LB */
+     margin: 15px 15px;
    }
 .container{
     height: 100%;
@@ -82,7 +78,7 @@ gap: 60px;
 .titleHome{
     border: 3px solid #D7263D;
     background-color: #E6AF2E;
-    width: 50vw;
+    width: auto;
     height: 5vh;
     align-content: center;
     text-align: center;
@@ -90,15 +86,15 @@ gap: 60px;
 .divText{
      border: 3px solid #D7263D;
     background-color: #E6AF2E;
-    width: 40vw;
-    height: 15vh;
+    width: 45vw;
+    height: 25vh;
     align-content: center;
     text-align: center;
 }
 .location{
      border: 3px solid #D7263D;
     background-color: #E6AF2E;
-    width: 40vw;
+    width: 45vw;
     height: 15vh;
     align-content: center;
     text-align: center;
@@ -106,8 +102,29 @@ gap: 60px;
 .schedule{
      border: 3px solid #D7263D;
     background-color: #E6AF2E;
-    width: 40vw;
+    width: 45vw;
     height: 15vh;
     align-content: center;
     text-align: center;
+}
+.menuTitle{
+    border: 3px solid #D7263D;
+    background-color: #E6AF2E;
+    width: 40vw;
+    height: 5vh;
+    align-content: center;
+    text-align: center;
+}
+section{
+border: 3px solid #D7263D;
+    background-color: #E6AF2E;
+    width: 40vw;
+    height: 30vh;
+    align-content: center;
+    text-align: center;
+    
+}
+
+section p{
+    border: 1px solid black;
 }

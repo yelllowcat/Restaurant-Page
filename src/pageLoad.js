@@ -39,7 +39,7 @@ export const pageLoad = () => {
   location.classList.add("location");
 
   const titleLocation = document.createElement("h2");
-  titleLocation.textContent = "Schedule";
+  titleLocation.textContent = "Location";
   location.appendChild(titleLocation);
 
   const locationText = document.createElement("p");
