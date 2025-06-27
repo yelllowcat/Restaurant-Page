@@ -28,3 +28,4 @@ contactBtn.addEventListener("click", () => {
   }
   contact();
 });
+pageLoad();

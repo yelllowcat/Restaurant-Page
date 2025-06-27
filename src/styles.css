@@ -3,12 +3,16 @@ body{
      height: 100vh;
     width: 100vw;
     background-color:#2E2E2E;
+        background: url(restaurant.jpg);
+
 }
 
 .bg {
     background: url(restaurant.jpg);
-    height: 100vh;
-    width: 100vw;
+    height: 40vh;
+    width: 94vw;
+    opacity: 0.5;
+    
 }
 nav{
     display: grid;
@@ -49,10 +53,61 @@ button{
 }
 .phone{
     color: #F46036;
+    
 }
 .email{
     color: #F46036	;
 }
 span{
     color: black;
+}
+.containerHome{
+ display: flex;
+ flex-direction: column;
+align-items: center;
+gap: 60px;
+}
+.containerContact{
+ display: flex;
+ flex-direction: column;
+align-items: center;
+gap: 60px;
+}
+.containerMenu{
+ display: flex;
+ flex-direction: column;
+align-items: center;
+gap: 60px;
+}
+.titleHome{
+    border: 3px solid #D7263D;
+    background-color: #E6AF2E;
+    width: 50vw;
+    height: 5vh;
+    align-content: center;
+    text-align: center;
+}
+.divText{
+     border: 3px solid #D7263D;
+    background-color: #E6AF2E;
+    width: 40vw;
+    height: 15vh;
+    align-content: center;
+    text-align: center;
+}
+.location{
+     border: 3px solid #D7263D;
+    background-color: #E6AF2E;
+    width: 40vw;
+    height: 15vh;
+    align-content: center;
+    text-align: center;
+}
+.schedule{
+     border: 3px solid #D7263D;
+    background-color: #E6AF2E;
+    width: 40vw;
+    height: 15vh;
+    align-content: center;
+    text-align: center;
 }

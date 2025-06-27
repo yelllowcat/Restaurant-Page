@@ -4,6 +4,7 @@ export const menu = () => {
   const div = document.createElement("div");
   div.style.backgroundColor = "#2E2E2E	";
   div.classList.add("container");
+  div.classList.add("containerMenu");
   content.appendChild(div);
 
   const dishes = document.createElement("section");
